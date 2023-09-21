@@ -1,0 +1,25 @@
+@import url(./assets/cabecalho.css);
+@import url(./assets/sobre.css);
+@import url(./assets/trabalhos.css);
+@import url(./assets/estudio.css);
+@import url(./assets/modal.css);
+@import url(./assets/footer.css);
+@import url(./assets/responsivo.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body {
+    background: #121010;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.sobre-nos {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.imagem img {
+    max-width: 500px;
+}
+
+.sobre-descricao {
+    max-width: 700px;
+}
+
+.sobre-descricao h1 {
+    color: #DE1D1D;
+    margin-bottom: 30px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.sobre-descricao p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,85 @@
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+    
+    .menu span {
+        display: none;
+    }
+
+    .sobre-nos {
+        flex-direction: column;
+        margin-top: 50px;
+        margin: center;
+        margin-left: 50px;
+    }
+
+    .sobre-descricao {
+        order: 1;
+    }
+
+    .imagem {
+        order: 2;
+    }
+
+    .sobre-descricao h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+
+    .sobre-descricao p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+
+    .trabalhos {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .titulo h1 {
+        font-size: 3rem;
+    }
+
+    .players {
+        margin-left: 30px;
+    }
+
+    .estudio h1 {
+        font-size: 3rem;
+        margin-top: 50px;
+    }
+
+    .galeria {
+        margin-left: 30px;
+    }
+
+    .estudio-descricao-texto {
+        margin-left: 30px;
+        margin-top: 8px;
+    }
+
+    .estudio-descricao-texto p {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .imagem img {
+        max-width: 100%;
+    }
+
+    #imagemMaior {
+        max-width: 100%;
+    }
+
+    .foto1, .foto2, .foto3, .foto4 {
+        margin-right: 10px;
+    }
+}
